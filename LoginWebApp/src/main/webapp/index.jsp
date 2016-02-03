@@ -46,7 +46,7 @@
                 border-top-right-radius: 0;
             }
         </style>
-        <title>Welcome</title>
+        <title>Welcome people</title>
     </head>
     <body>
         <div class="container">
