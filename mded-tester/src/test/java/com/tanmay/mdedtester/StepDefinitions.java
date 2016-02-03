@@ -10,7 +10,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class StepDefinitions {
-    String url = null, titleShuoldBe= "Markdown-editor";
+    String url = null, titleShuoldBe = "Markdown-editor";
     WebDriver driver = null;
 
 
