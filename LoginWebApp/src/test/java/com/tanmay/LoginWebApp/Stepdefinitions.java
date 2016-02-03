@@ -15,13 +15,11 @@ public class Stepdefinitions {
 
     @When("^I visit the app page$")
     public void iVisitTheAppPage() throws Throwable {
-//        $(By.name("uname")).setValue("johny");
-//        $(By.name("password")).setValue("johny");
-        open("http://localhost:8081/index.jsp");
+        open("http://localhost:8082/index.jsp");
     }
 
     @Then("^page title should be \"([^\"]*)\"$")
     public void pageTitleShouldBe(String arg0) throws Throwable {
-        assertThat(title().toString(), is(arg0));
+        assertThat(title(), is(arg0));
     }
 }
